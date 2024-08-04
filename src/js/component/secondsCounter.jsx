@@ -4,7 +4,7 @@ import '../../styles/secondsCounter.css';
 const SecondsCounter = ({ uno, dos, tres, cuatro, cinco, seis }) => {
     return (
         <div className="container row">
-            <div className="icono col-12 col-sm-12 col-lg-2">
+            <div className="icono col-9 col-sm-9 col-lg-2">
                 <i className="fa fa-clock text-white"></i>
             </div>
             <div className="seis col-4 col-sm-4 col-lg-1 text-white">{seis % 10}</div>
